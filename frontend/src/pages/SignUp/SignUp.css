@@ -1,0 +1,120 @@
+.signup-body{
+    height: 100vh;
+    border-radius: 20px;
+    /* border: 5px solid black; */
+    overflow: hidden;
+    margin: 10px 50px;
+    position: relative;
+}
+.signup-body img{
+    height: 100%;
+    width: 100%;
+}
+.signup-content{
+    color: black;
+    position: absolute;
+    left: 3%;
+    top: 12%;
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 650px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px 60px;
+}
+.signup-content h1{
+    text-align: center;
+    margin: 8px 0px;
+    color: black;
+}
+.signup-content h1{
+    text-align: center;
+    margin: 10px 0px;
+    color: black;
+}
+.signup-content input{
+    padding: 10px;
+    /* width: 100%; */
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    border: 1px solid rgb(156, 102, 0);
+}
+.signup-button{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 40px;
+    background-color: rgb(250, 171, 24);
+    border: 1px solid rgb(185, 121, 1);
+}
+.input-100{
+    width: 100%;
+}
+.signup-body select{
+    padding: 9px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    border: 1px solid rgb(156, 102, 0);
+    
+}
+.input-flex{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.input-flex-select{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.input-flex input{
+    width: 100%;
+}
+.signup-button{
+    width: 100%;
+    margin-top: 25px;
+}
+.select{
+    color: gray;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.checkbox label {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight:100;
+}
+.signup-lower{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    gap: 30px;
+}
+.btn{
+    display: flex;
+    height: 40px;
+    /* width: 100%; */
+    background-color: white;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 5px 40px;
+    border: 1px solid rgb(168, 110, 2);
+}
+.btn image{
+    height: 10px;
+}
+input, select{
+    outline: none;
+}
+.signup-button:hover{
+    background-color: orange;
+}

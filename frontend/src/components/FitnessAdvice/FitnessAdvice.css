@@ -1,0 +1,32 @@
+.advice-section{
+    display: flex;
+    margin: 0px 100px;
+}
+.advice-section img{
+    height: 400px;
+    opacity: 0.9;
+}
+.advice-left{
+    padding: 60px 50px;
+}
+.advice-left h2{
+    font-size: 60px;
+}
+.advice-left h3{
+    font-size: 40px;
+    /* color: #b0b0b1; */
+}
+.advice-left p{
+    font-size: 16px;
+    margin: 3px 0px;
+}
+.advice-section button{
+    padding: 15px 28px;
+    border-radius: 50px;
+    border: 1px solid rgb(192, 125, 2);
+    margin: 20px 0px;
+    background-color: rgb(255, 166, 0);
+}
+.gym{
+    color: rgb(253, 165, 2);
+}

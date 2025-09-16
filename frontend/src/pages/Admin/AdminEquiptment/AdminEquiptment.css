@@ -1,0 +1,103 @@
+.admin-equipment-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.admin-equipment-main {
+    flex: 1;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.admin-equipment-title h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    border-left: 5px solid orange;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.equipment-wrapper {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.equipment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.equipment-actions button {
+    margin-left: 10px;
+    padding: 6px 14px;
+    background-color: #fff;
+    border: 1px solid #ffd88b;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.equipment-actions button:hover{
+    background-color: #fff7e0;
+}
+
+.equipment-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.equipment-card {
+    width: 100%;
+    background-color: #fff7e0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ffd88b;
+}
+
+.equipment-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.equipment-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.equipment-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.equipment-icon {
+    width: 20px;
+    cursor: pointer;
+}
+
+.toggle-icon.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.equipment-details {
+    margin-top: 10px;
+    display: none;
+    color: #444;
+    font-size: 15px;
+}
+
+.equipment-details.show {
+    display: block;
+}
+
+.equipment-icons img{
+    height: 20px;
+}

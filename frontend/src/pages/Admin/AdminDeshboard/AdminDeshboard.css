@@ -1,0 +1,98 @@
+.admin-deshboard{
+    display: flex;
+    gap: 50px;
+    /* height: 100vh;
+    overflow: hidden; */
+
+    background-color: #f3f4f6;
+}
+.deshboard-content{
+    margin: 30px 10px;
+}
+.stat-cards{
+    display: flex;
+    gap: 22px;
+    margin-top: 25px;
+}
+.deshboard-stat{
+    margin-top: 50px;
+}
+.stat-card{
+    padding: 25px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+#total-user{
+    background-color: #1E293B;
+}
+#active-user{
+    background-color: #0F172A;
+}
+#today-booking{
+    background-color: #F97316;
+}
+#total-trainner{
+    background-color: maroon;
+}
+#revnue-monthly{
+    background-color: #22C55E; 
+}
+.stat-card p{
+    text-align: center;
+}
+.deshboard-chat{
+    margin: 40px 0px;
+}
+.barchat{
+    margin: 20px 0px;
+}
+.class-table-recent table {
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 14px;
+}
+.class-table-recent table td {
+  border: 1px solid #ccc;
+  padding: 15px 8px;
+  text-align: center;
+}
+.class-table-recent table th{
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+.class-booked{
+    margin: 10px 0px;
+}
+.class-booked table{
+    margin: 20px 0px;
+    width: 100%;
+}
+.admin-desh-quick-links{
+    margin-top: 50px;
+}
+.links-quick{
+    margin: 20px 0px;
+}
+.links-quick button{
+    margin-right: 25px;
+    padding: 8px 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(207, 136, 3);
+    background-color: #fca503;
+    color: white;
+}
+.admin-welcome, .stat-heading, .monthly-revenue-chat, .recent-class-heading, .desh-quick-link-heading{
+    border-left: 12px solid rgb(230, 150, 3);
+    padding: 0px 15px;
+    border-radius: 5px;
+}
+.table-status span{
+    padding: 5px 8px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: rgb(2, 197, 2);
+}

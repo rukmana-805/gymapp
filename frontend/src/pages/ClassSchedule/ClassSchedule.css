@@ -1,0 +1,96 @@
+.class-schedule-parent{
+    display: flex;
+}
+/* .class-schedule-container{
+    margin-left: 20px;
+} */
+.class-schedule-flex{
+    display: flex;
+}
+.schedule-container {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  max-width: 1000px;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.schedule-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.schedule-title span {
+  color: rgb(214, 140, 3);
+}
+
+.day-section {
+  margin-bottom: 30px;
+}
+
+.day-heading {
+  font-size: 24px;
+  color: #111;
+  border-left: 5px solid rgb(214, 140, 3);
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.class-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* padding-left: 20px; */
+}
+
+.class-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  padding: 12px 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+}
+
+.class-name {
+  color: #222;
+}
+
+.class-time {
+  color: #555;
+}
+
+.booking-class-container{
+    width: 30%;
+    margin: 20px 30px;
+    padding: 10px;
+}
+.heading span{
+    color: rgb(214, 140, 3);
+}
+.heading h1{
+    margin-bottom: 30px;
+}
+.select-box{
+    display: flex;
+    justify-content: space-between;
+}
+.book-class-button button{
+    padding: 7px 15px;
+    cursor: pointer;
+    background-color: rgb(241, 157, 1);
+    border-radius: 5px;
+    border: 1px solid rgb(121, 79, 1);
+    color: white;
+    margin-top: 20px;
+}
+.booking-class-container select{
+    padding: 5px 10px;
+    margin: 5px 0px;
+}
+.isavailable{
+    color: green;
+}

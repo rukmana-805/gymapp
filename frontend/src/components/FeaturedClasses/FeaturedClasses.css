@@ -1,0 +1,51 @@
+.class-parent{
+    background-color: #f1f1f1;
+    /* margin-bottom: 50px; */
+    padding: 50px 0px;
+}
+.class-content{
+    text-align: center;
+    padding: 40px 100px;
+}
+.class-content button{
+    font-size: 18px;
+    border: none;
+    border-bottom: 3px solid rgb(230, 150, 3);
+    padding-bottom: 7px;
+}
+.class-content p{
+    padding:13px 30px;
+    font-size: 15px;
+}
+.classes{
+    display: flex;
+    gap: 30px;
+    margin: 0px 130px;
+}
+.classes-box img{
+    height: 230px;
+}
+.classes-box h3{
+    padding:10px 20px;
+    font-weight: 400;
+    /* border-bottom: 2px solid orange; */
+}
+.class-schedule{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    /* margin: 10px 20px; */
+}
+.classes-box{
+    background-color: white;
+}
+.time, .date{
+    display: flex;
+}
+.class-schedule img{
+    height: 20px;
+}
+.class-schedule p{
+    padding: 3px;
+    font-size: 14px;
+}

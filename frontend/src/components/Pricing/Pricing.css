@@ -1,0 +1,74 @@
+.pricing-parent{
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.pricing-content button{
+    font-size: 18px;
+    border: none;
+    border-bottom: 3px solid rgb(230, 150, 3);
+    padding-bottom: 7px;
+    background-color: black;
+    color: white;
+}
+.pricing-content{
+    text-align: center;
+    padding: 40px 100px;
+}
+.pricing-content p{
+    padding:13px 30px;
+    font-size: 15px;
+    color: white;
+}
+.plan{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.price-box{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+.price-box ul{
+    color: black;
+    list-style-type: none;
+}
+.price-box h1{
+    color: rgb(240, 157, 4);
+}
+.per-month{
+    font-size: 12px;
+}
+.price-box h3{
+    margin: 10px 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.price-box ul li{
+    font-size: 14px;
+    margin: 10px 5px;
+    font-weight: 200;
+
+}
+.price-box button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid rgb(221, 145, 3);
+    margin-top: 20px;
+}
+.not-available{
+    opacity: 0.3;
+}
+.price-box button:hover{
+    background-color: rgb(252, 170, 19);
+    transition: 0.5s;
+}
+.cancle-box{
+    position: absolute;
+    height: 15px;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+}

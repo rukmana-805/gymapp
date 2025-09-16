@@ -1,0 +1,237 @@
+.admin-trainer-page {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: #f9f9f9;
+}
+
+.admin-trainer-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.trainer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.trainer-header h2 {
+  font-size: 28px;
+  font-weight: bold;
+  border-left: 5px solid orange;
+  padding-left: 10px;
+  color: #111;
+}
+
+.add-trainer-btn {
+  padding: 8px 18px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background: #fff;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.add-trainer-btn:hover {
+  background: #ffa703;
+  color: #fff;
+}
+
+.trainer-list {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.trainer-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: flex-start;
+  /* gap: 15px; */
+  /* position: relative; */
+  /* display: flex; */
+  flex-direction: column;
+  width: 300px;
+}
+
+.trainer-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainer-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid orange;
+}
+
+.trainer-info h3 {
+  margin: 10px 0 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.trainer-info p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.buttons-admin-trainer{
+    display: flex;
+    gap: 10px;
+}
+
+.delete-trainer-btn {
+  /* position: absolute; */
+  /* top: 15px;
+  right: 15px; */
+  margin-top: 10px;
+  background: red;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.edit-trainer-btn{
+margin-top: 10px;
+  background: orange;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.delete-trainer-btn:hover {
+  background: darkred;
+}
+.edit-trainer-btn:hover {
+  background: darkgoldenrod;
+}
+
+
+
+/* Overlay to cover background */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* dark transparent background */
+  backdrop-filter: blur(5px);      /* blur effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* above everything */
+}
+
+/* Popup box */
+.popup-form {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  animation: popupFadeIn 0.3s ease-in-out;
+}
+
+/* Heading */
+.popup-form h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Inputs */
+.popup-form form input, .edit-trainer-form form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border 0.2s;
+}
+
+.popup-form form input:focus, .edit-trainer-form form input:focus {
+  border-color: orange;
+  outline: none;
+}
+
+/* Buttons */
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.submit-btn {
+  flex: 1;
+  background: orange;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: darkorange;
+}
+
+.cancel-btn {
+  flex: 1;
+  background: #eee;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  color: #333;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cancel-btn:hover {
+  background: #ddd;
+}
+
+/* Animation */
+@keyframes popupFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.popup-edit-profile{
+  width: 50%;
+}
+

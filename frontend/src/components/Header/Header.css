@@ -1,0 +1,68 @@
+/* NAVBAR */
+.nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 2; /* 👈 Bring above background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  color: white;
+  background-color: black;
+}
+
+/* LOGO */
+.logo {
+  height: 75px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+/* NAV ITEMS */
+.nav-bar ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.nav-bar ul li {
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+
+.nav-bar ul li:hover {
+  background-color: rgb(253, 191, 57);
+  transition-duration: 0.3s;
+}
+
+/* BUTTONS */
+.nav-btn {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-btn button {
+  padding: 10px 15px;
+  background-color: rgb(255, 201, 101);
+  border: 1px solid rgb(219, 143, 1);
+  border-radius: 5px;
+  cursor: pointer;
+  /* font-weight: bold; */
+  transition-duration: 0.3s;
+}
+
+.nav-btn button:hover {
+  background-color: rgb(252, 186, 64);
+}
+.nav-link{
+  text-decoration: none;
+  color: white;
+}
+.nav-bar ul li a{
+  text-decoration: none;
+  color: white;
+}

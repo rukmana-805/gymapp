@@ -1,0 +1,116 @@
+.most-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+.upload-profile-parent {
+  border: 1px solid #ccc;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.upload-profile-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile {
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 2px dashed #faaa00;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-file-input {
+  display: none;
+}
+
+.upload-button {
+  border-radius: 5px;
+  background-color: rgb(250, 174, 34);
+  border: 1px solid rgb(163, 107, 1);
+  margin: 10px 5px;
+  height: 35px;
+  width: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.upload-button:hover {
+  background-color: rgb(247, 160, 0);
+}
+
+.preview {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.preview-inner {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.crop-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: #333;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.crop-btn {
+  padding: 10px 25px;
+  border: 1px solid rgb(185, 121, 2);
+  background-color: rgb(250, 193, 87);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.crop-btn:hover {
+  background-color: rgb(247, 180, 57);
+}
+
+.preview-inner input[type="range"] {
+  width: 100%;
+  margin: 10px 0;
+}
+

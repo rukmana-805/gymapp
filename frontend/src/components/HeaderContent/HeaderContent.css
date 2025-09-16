@@ -1,0 +1,31 @@
+.header-content{
+    position: relative;
+    color: white;
+    margin: 110px;
+    text-align: center;
+}
+.header-content h1{
+    margin-top: 120px;
+    font-size: 60px;
+    /* text-align: center; */
+}
+.header-content p{
+    /* width: 500px; */
+    padding: 10px 30px;
+    margin: 0px 180px;
+}
+.key{
+    color: rgb(252, 182, 54);
+}
+.header-content button{
+    margin: 15px;
+    padding: 14px 50px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    background-color: rgb(247, 186, 74);
+}
+.header-content button:hover{
+    background-color: rgb(250, 183, 59);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}

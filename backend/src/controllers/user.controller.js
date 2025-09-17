@@ -234,13 +234,15 @@ const logoutUser = asyncHandler( async (req, resp) => {
             $set : {
                 refreshToken : undefined
             }
-        }
-    ),
-    {new : true}
+        },
+        {new : true}
+    )
+    // {new : true}
 
     const options = {
-        httpOnly : true,
-        secure : true
+        httpOnly: true,
+        secure: true,
+        sameSite: "none"
     }
 
     return resp.status(200)

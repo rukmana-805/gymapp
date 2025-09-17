@@ -1,5 +1,5 @@
 import "../FitnessAdvice/FitnessAdvice.css"
-import GymBoy from "@/assets/GymBoy.png"
+import GymBoy from "@/assets/Gymboy.png"
 // import GymBoy from "../../assets/GymBoy.png"
 
 const FitnessAdvice = () => {

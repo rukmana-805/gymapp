@@ -180,8 +180,18 @@ const loginUser = asyncHandler(async (req, resp) => {
     }
 
     return resp.status(200)
-    .cookie("refreshToken", refreshToken, options)
-    .cookie("accessToken", accessToken, options)
+    .cookie("refreshToken", refreshToken, {
+        httpOnly: true,
+        secure: true,
+        sameSite: "none",
+        maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
+    })
+    .cookie("accessToken", accessToken, {
+        httpOnly: true,
+        secure: true,
+        sameSite: "none",
+        maxAge: 24 * 60 * 60 * 1000 // 1 day
+    })
     .json({
         success : true,
         message : "User LogedIn Successfully",

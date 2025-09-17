@@ -1,6 +1,6 @@
 import "../FitnessAdvice/FitnessAdvice.css"
-// import GymBoy from "@/assets/GymBoy.png"
-import GymBoy from "../../assets/GymBoy.png"
+import GymBoy from "@/assets/GymBoy.png"
+// import GymBoy from "../../assets/GymBoy.png"
 
 const FitnessAdvice = () => {
     return(

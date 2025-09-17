@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../Login/Login.css";
-import LoginImg from "../../assets/loginimg.jpg";
+import LoginImg from "@/assets/loginimg.jpg";
 import axiosInstance from "../../utils/axiosInstance.js";
 import { useNavigate, useLocation } from "react-router-dom";
 

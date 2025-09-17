@@ -1,7 +1,7 @@
 import "../Profile/Profile.css"
 import emptyProfile from "../../assets/emptyprofile.png"
 import LoginSidebar from "../../components/LoginSidebar/LoginSidebar.jsx"
-import Pencil from "../../assets/pencil.png"
+import Pencil from "@/assets/pencil.png"
 import { useAuth } from "../../context/AuthContext.jsx"
 
 import { useNavigate } from "react-router-dom"

@@ -1,9 +1,9 @@
 import "../AdminEquiptment/AdminEquiptment.css"
 import AdminSidebar from "../AdminSide/AdminSide.jsx"
 
-import edit_icon from "../../../assets/edit-icon.png"
-import delete_icon from "../../../assets/delete-icon.png"
-import details_icon from "../../../assets/arrow-down.png"
+import edit_icon from "@/assets/edit-icon.png"
+import delete_icon from "@/assets/delete-icon.png"
+import details_icon from "@/assets/arrow-down.png"
 import { useState } from "react"
 
 const AdminEquipment = () => {

@@ -1,4 +1,4 @@
-import BackGymImg from "../../assets/backgymimg.jpg";
+import BackGymImg from "@/assets/backgymimg.jpg";
 import "../Home/Home.css"
 import HeaderContent from "../../components/HeaderContent/HeaderContent.jsx";
 import Activities from "../../components/Activities/Activities.jsx";

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "../Pricing/Pricing.css";
 
 import axiosInstance from "../../utils/axiosInstance.js";
-import CancleButton from "../../assets/canclebutton.png";
+import CancleButton from "@/assets/canclebutton.png";
 import { useNavigate } from "react-router-dom";
 
 const Pricing = ({mode = "page", onClose}) => {

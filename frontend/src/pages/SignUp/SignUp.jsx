@@ -1,7 +1,7 @@
 import "../SignUp/SignUp.css";
-import signUpImg from "../../assets/signupimg1.jpg";
-import googleIcon from "../../assets/googleicon.png";
-import appleIcon from "../../assets/appleicon.png";
+import signUpImg from "@/assets/signupimg1.jpg";
+import googleIcon from "@/assets/googleicon.png";
+import appleIcon from "@/assets/appleicon.png";
 
 import {useNavigate} from "react-router-dom"
 import { useState } from "react";

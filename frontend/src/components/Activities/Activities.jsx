@@ -1,9 +1,9 @@
 import React from "react";
 import "../Activities/Activities.css"
-import WeightTraining from "../../assets/weighttrainingicon.png"
-import Running from "../../assets/runningicon.png"
-import Yoga from "../../assets/yogaicon.png"
-import Jumping from "../../assets/jumpingicon.png"
+import WeightTraining from "@/assets/weighttrainingicon.png"
+import Running from "@/assets/runningicon.png"
+import Yoga from "@/assets/yogaicon.png"
+import Jumping from "@/assets/jumpingicon.png"
 
 const Activities = () => {
     return(

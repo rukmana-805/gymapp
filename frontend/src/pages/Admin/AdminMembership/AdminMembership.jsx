@@ -1,9 +1,9 @@
 import "../AdminMembership/AdminMembership.css"
 import AdminSidebar from "../AdminSide/AdminSide.jsx"
 
-import edit_mem_icon from "../../../assets/edit-icon.png"
-import delete_mem_icon from "../../../assets/delete-icon.png"
-import details_mem_icon from "../../../assets/arrow-down.png"
+import edit_mem_icon from "@/assets/edit-icon.png"
+import delete_mem_icon from "@/assets/delete-icon.png"
+import details_mem_icon from "@/assets/arrow-down.png"
 import { useState } from "react"
 
 const AdminMembership = () => {

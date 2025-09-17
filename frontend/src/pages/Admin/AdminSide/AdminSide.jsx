@@ -1,5 +1,5 @@
 import "../AdminSide/AdminSide.css"
-import emptyProfile from "../../../assets/emptyprofile.png"
+import emptyProfile from "@/assets/emptyprofile.png"
 import { useNavigate, NavLink } from "react-router-dom"
 
 const AdminSidebar = () => {

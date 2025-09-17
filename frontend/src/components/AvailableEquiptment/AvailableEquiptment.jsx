@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "../AvailableEquiptment/AvailableEquiptment.css";
-import Dumble from "../../assets/Dumble.jpg";
-import RowMachine from "../../assets/RowMachine.jpg";
-import Trademill from "../../assets/Trademill.jpg";
-import Kettlebells from "../../assets/Kettlebells.jpg";
+import Dumble from "@/assets/Dumble.jpg";
+import RowMachine from "@/assets/RowMachine.jpg";
+import Trademill from "@/assets/Trademill.jpg";
+import Kettlebells from "@/assets/Kettlebells.jpg";
 
-import axiosInstance from "../../utils/axiosInstance";
+import axiosInstance from "../../utils/axiosInstance.js";
 import { useEffect } from "react";
 
 const AvailableEquipment = () => {

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import AdminSidebar from "../AdminSide/AdminSide";
 import "../AdminTrainer/AdminTrainer.css";
 import TrainerImage from "../../../assets/trainner1.jpg";
-import axiosInstance from "../../../utils/axiosInstance";
+import axiosInstance from "../../../utils/axiosInstance.js";
 import ProfileUpload from "../../ProfileUpload/ProfileUpload.jsx";
 
 const AdminTrainer = () => {

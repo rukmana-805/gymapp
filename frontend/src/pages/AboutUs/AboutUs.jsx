@@ -1,9 +1,9 @@
 import React from "react";
 import "../AboutUs/AboutUs.css";
 import BodyBuildingImage from "../../assets/BodybuildingImage.jpg";
-import Trainner1 from "../../assets/trainner1.jpg";
-import Trainner2 from "../../assets/trainner2.jpg";
-import Trainner3 from "../../assets/trainner3.jpg";
+import Trainner1 from "@/assets/trainner1.jpg";
+import Trainner2 from "@/assets/trainner2.jpg";
+import Trainner3 from "@/assets/trainner3.jpg";
 
 
 const AboutUs = () => {

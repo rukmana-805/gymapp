@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useRef } from "react";
 import Cropper from "react-easy-crop";
-import emptyProfile from "../../assets/emptyprofile.png"; // Apna path theek rakhna
+import emptyProfile from "@/assets/emptyprofile.png"; // Apna path theek rakhna
 import "../ProfileUpload/ProfileUpload.css";
 import axiosInstance from "../../utils/axiosInstance.js";
 import { useNavigate } from "react-router-dom";

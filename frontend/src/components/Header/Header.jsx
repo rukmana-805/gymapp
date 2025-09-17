@@ -1,5 +1,5 @@
 import "../Header/Header.css";
-import Logo from "../../assets/gymlogo.png";
+import Logo from "@/assets/gymlogo.png";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext.jsx";
 import axiosInstance from "../../utils/axiosInstance.js";

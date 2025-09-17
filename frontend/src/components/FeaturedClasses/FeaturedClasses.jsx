@@ -1,9 +1,9 @@
 import "../FeaturedClasses/FeaturedClasses.css"
-import BodyBuildingImage from "../../assets/BodyBuildingImage.jpg"
-import YogaImage from "../../assets/yogaimage.jpg"
-import RunningImage from "../../assets/RunningImage.jpg"
-import CalenderIcon from "../../assets/calendericon.png"
-import TimeIcon from "../../assets/timeicon.png"
+import BodyBuildingImage from "@/assets/BodyBuildingImage.jpg"
+import YogaImage from "@/assets/yogaimage.jpg"
+import RunningImage from "@/assets/RunningImage.jpg"
+import CalenderIcon from "@/assets/calendericon.png"
+import TimeIcon from "@/assets/timeicon.png"
 
 
 const FeaturedClasses = () => {

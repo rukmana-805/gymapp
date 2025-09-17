@@ -12,7 +12,8 @@ import subscriptionRouter from "./src/routes/subscription.router.js"
 const app = express()
 
 app.use(cors({
-    origin : "http://localhost:5173",
+    // origin : "http://localhost:5173",
+    origin : ["https://mybackend-3lwb.onrender.com"],
     credentials : true,
     optionsSuccessStatus : 200
 }))
